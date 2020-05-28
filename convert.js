@@ -35,7 +35,7 @@ router.post('/', (req, res) => {
     webshot(rota, nameSpace + fileName + fileType, options, (err) => {
         if(err){
             return console.log(err);
-        }  res.sendFile(__dirname+'/downloads/'+fileName+".pdf", "download.pdf", function(err){            
+        }else res.sendFile(__dirname+'/downloads/'+fileName+".pdf", "download.pdf", function(err){            
           
           });
     });
