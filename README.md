@@ -2,6 +2,8 @@ Conversor de Conteúdo HTML para .pdf
 
 Requisitos necessários: Node.js na versão v10.13
 
+Criar uma pasta chamada downloads no diretorio
+
 Comandos: npm install para baixar os pacotes e node serve.js para instalar
 
 Para utilizar criar uma conexão com a seguinte rota:
